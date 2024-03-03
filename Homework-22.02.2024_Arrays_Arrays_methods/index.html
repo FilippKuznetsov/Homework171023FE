@@ -11,7 +11,25 @@
 
 
 
+<form id="courseForm">
+    <label for="FrontEnd">FrontEnd</label>
+    <input type="checkbox" id="frontEnd" name="courses">
+    <input type="number" id="FE_Lesssons" placeholder="кол-во занятий">
+    
+    <label for="BackEnd">BackEnd</label>
+    <input type="checkbox" id="backEnd" name="courses">
+    <input type="number" id="BE_Lessons" placeholder="кол-во занятий">
+    
+    <label for="QA">QA</label>
+    <input type="checkbox" id="qa" name="courses">
+    <input type="number" id="QA_Lessons" placeholder="кол-во занятий">
 
+    <button type="button" id="btn" onclick="calculate()">Рассчитать стоимость вашего кейса</button>
+
+
+
+</form>
+<p id="totalPrice"></p>
 
 </body>
 <script src="./scripts/script.js"></script>
